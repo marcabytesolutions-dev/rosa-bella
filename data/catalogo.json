@@ -1,0 +1,2201 @@
+{
+  "metadata": {
+    "nombre_negocio": "Estética Rosa Bella",
+    "version": "1.1-demo-publica-sin-importes",
+    "cantidad_categorias_originales": 10,
+    "cantidad_fichas_originales": 102,
+    "todos_los_precios_pendientes_de_validacion": true,
+    "reglas_de_interfaz": {
+      "mostrar_importes_en_demo_publica": false,
+      "solicitud_whatsapp_no_confirma_reserva": true
+    }
+  },
+  "categorias_originales": [
+    {
+      "id": "manicura",
+      "nombre_original": "MANICURA Y PEDICURA 💅",
+      "servicios": [
+        {
+          "id": "RB-MANICURA-001",
+          "nombre_original": "Colores Alta Ganma Añadidos a tus arraglos 💅 uñas",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Rubber Base tonos nude (suplemento)"
+            },
+            {
+              "concepto": "Pintura gel XIEY JAY o tonos rojos JR (suplemento)"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-002",
+          "nombre_original": "Consideraciones si vienes con arreglos hechos en otro salón.",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Retirar Rubber"
+            },
+            {
+              "concepto": "Retirar acrílico o poligel normal"
+            },
+            {
+              "concepto": "Retirar acrílico o poligel largo"
+            },
+            {
+              "concepto": "Retirar acrílico o poligel extralargo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-003",
+          "nombre_original": "Decoración y Diseños de uñas",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Efecto en un par de uñas"
+            },
+            {
+              "concepto": "Francesa en todas las uñas"
+            },
+            {
+              "concepto": "Efecto en todas las uñas"
+            },
+            {
+              "concepto": "Mantenimiento de una uña"
+            },
+            {
+              "concepto": "Dibujo complejo"
+            },
+            {
+              "concepto": "Encapsulado"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-004",
+          "nombre_original": "Podología",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Servicio de podología según valoración"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-005",
+          "nombre_original": "Reforzamiento de uñas con Gel de Construcción sin tip",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Cortas"
+            },
+            {
+              "concepto": "Medias"
+            },
+            {
+              "concepto": "Largas"
+            },
+            {
+              "concepto": "Extralargas"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-006",
+          "nombre_original": "Manicura Natural",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Manicura natural"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-007",
+          "nombre_original": "Manicura con Pintura de Gel",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Manicura con pintura de gel"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-008",
+          "nombre_original": "*Manicura con Base rubber + pintura de gel",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Cortas"
+            },
+            {
+              "concepto": "Medianas"
+            },
+            {
+              "concepto": "Largas"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-009",
+          "nombre_original": "Acrílicas +pintura de gel",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Cortas"
+            },
+            {
+              "concepto": "Medianas"
+            },
+            {
+              "concepto": "Largas"
+            },
+            {
+              "concepto": "Extralargas"
+            },
+            {
+              "concepto": "Extra extralargas"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-010",
+          "nombre_original": "*Manicura con Poligel + pintura de gel",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Cortas"
+            },
+            {
+              "concepto": "Medianas"
+            },
+            {
+              "concepto": "Largas"
+            },
+            {
+              "concepto": "Extralargas"
+            },
+            {
+              "concepto": "Extra extralargas"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-011",
+          "nombre_original": "💅 Molde Sandwish 💅",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Molde Sandwich"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-012",
+          "nombre_original": "Pedicura natural",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Pedicura natural"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-013",
+          "nombre_original": "Pedicura con pintura de Gel",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Pedicura con gel"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-014",
+          "nombre_original": "Pedicura con Rubber más pintura de gel",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Pedicura con Rubber y gel"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-015",
+          "nombre_original": "Pedicura con poligel",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Poligel en dedos gordos, con pintura de gel"
+            },
+            {
+              "concepto": "Poligel y nivelación en todos los dedos, con gel"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MANICURA-016",
+          "nombre_original": "Adicionales a su Pedicura 💕🌹",
+          "categoria_web_sugerida": [
+            "unas"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Mascarilla exfoliante e hidratante"
+            },
+            {
+              "concepto": "Masaje podal"
+            },
+            {
+              "concepto": "Pedicura spa adicional"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    },
+    {
+      "id": "peluqueria",
+      "nombre_original": "👩SERVICIO DE PELUQUERÍA",
+      "servicios": [
+        {
+          "id": "RB-PELUQUERIA-001",
+          "nombre_original": "Mascarilla Capilar para Keratinas Repolarix de Keramix",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Cabello corto"
+            },
+            {
+              "concepto": "Cabello medio"
+            },
+            {
+              "concepto": "Cabello largo"
+            },
+            {
+              "concepto": "Cabello extralargo"
+            },
+            {
+              "concepto": "Ampolla Keramix adicional al precio de la mascarilla"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-002",
+          "nombre_original": "Lavado y peinado",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Corto"
+            },
+            {
+              "concepto": "Mediano"
+            },
+            {
+              "concepto": "Largo"
+            },
+            {
+              "concepto": "Extralargo"
+            },
+            {
+              "concepto": "Ondas adicionales"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-003",
+          "nombre_original": "LUMINO LISS",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Lumino Liss"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-004",
+          "nombre_original": "Tratamiento Sellador de Cutícula linea Salem",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Corto"
+            },
+            {
+              "concepto": "Medio"
+            },
+            {
+              "concepto": "Largo"
+            },
+            {
+              "concepto": "Extralargo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-005",
+          "nombre_original": "Derizz",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Retoque"
+            },
+            {
+              "concepto": "Cabeza completa"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-006",
+          "nombre_original": "Trenzas",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Trenzas según complejidad"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-007",
+          "nombre_original": "Tinte",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Tinte más peróxido"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-008",
+          "nombre_original": "Balayage, California, Babylight, Chunky, Contorno, etc",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Corto"
+            },
+            {
+              "concepto": "Medio"
+            },
+            {
+              "concepto": "Largo"
+            },
+            {
+              "concepto": "Extralargo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-009",
+          "nombre_original": "Corte",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Cerquillo o puntas"
+            },
+            {
+              "concepto": "Corte de estilo o retoque"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-010",
+          "nombre_original": "Mechas, o Iluminaciones",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Polvo y decoloración para mechas"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-011",
+          "nombre_original": "Tratamiento hidratante Botox",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Corto"
+            },
+            {
+              "concepto": "Mediano"
+            },
+            {
+              "concepto": "Largo"
+            },
+            {
+              "concepto": "Extralargo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-012",
+          "nombre_original": "Hidratante Karseell con aceite de Argán",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Corto"
+            },
+            {
+              "concepto": "Mediano"
+            },
+            {
+              "concepto": "Largo"
+            },
+            {
+              "concepto": "Extralargo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-013",
+          "nombre_original": "SALEM HI REPAR",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Corto"
+            },
+            {
+              "concepto": "Mediano"
+            },
+            {
+              "concepto": "Largo"
+            },
+            {
+              "concepto": "Extralargo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-014",
+          "nombre_original": "Plex forte para cabellos maltratados",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Corto"
+            },
+            {
+              "concepto": "Mediano"
+            },
+            {
+              "concepto": "Largo"
+            },
+            {
+              "concepto": "Extralargo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-015",
+          "nombre_original": "Keratinas con o sin formol",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Sin formol"
+            },
+            {
+              "concepto": "Con formol"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-016",
+          "nombre_original": "Ampollas reparadoras",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Ampolla de tratamiento capilar"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-017",
+          "nombre_original": "Ozonoterapia",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Ozonoterapia capilar"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-018",
+          "nombre_original": "Alta frecuencia",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Alta frecuencia capilar"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-019",
+          "nombre_original": "Plasma Rico en Plaquetas",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "PRP capilar"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-020",
+          "nombre_original": "Olaplex",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Corto"
+            },
+            {
+              "concepto": "Medio"
+            },
+            {
+              "concepto": "Largo"
+            },
+            {
+              "concepto": "Extralargo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-021",
+          "nombre_original": "RIZOS",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Corto"
+            },
+            {
+              "concepto": "Mediano"
+            },
+            {
+              "concepto": "Largo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-PELUQUERIA-022",
+          "nombre_original": "Montaje de Extensiones",
+          "categoria_web_sugerida": [
+            "cabello"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Montaje"
+            },
+            {
+              "concepto": "Preparación menos de 70 extensiones"
+            },
+            {
+              "concepto": "Preparación más de 70 extensiones"
+            },
+            {
+              "concepto": "Desmontaje"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    },
+    {
+      "id": "mirada",
+      "nombre_original": "HENNA, DEPILACIÓN CON CERA, LAMINADO Y PESTAÑAS ✨️",
+      "servicios": [
+        {
+          "id": "RB-MIRADA-001",
+          "nombre_original": "Depilación con cera",
+          "categoria_web_sugerida": [
+            "mirada",
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Bozo"
+            },
+            {
+              "concepto": "Cejas"
+            },
+            {
+              "concepto": "Cara completa"
+            },
+            {
+              "concepto": "Axilas"
+            },
+            {
+              "concepto": "Bikini"
+            },
+            {
+              "concepto": "Pantorrilla"
+            },
+            {
+              "concepto": "Muslos"
+            },
+            {
+              "concepto": "Abdomen"
+            },
+            {
+              "concepto": "Espalda baja"
+            },
+            {
+              "concepto": "Brazos enteros"
+            },
+            {
+              "concepto": "Tinte henna cejas"
+            },
+            {
+              "concepto": "Laminado de cejas"
+            },
+            {
+              "concepto": "Henna labial"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MIRADA-002",
+          "nombre_original": "Tinte de Henna",
+          "categoria_web_sugerida": [
+            "mirada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Tinte de henna para cejas"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MIRADA-003",
+          "nombre_original": "Laminado de Cejas",
+          "categoria_web_sugerida": [
+            "mirada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Laminado de cejas"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MIRADA-004",
+          "nombre_original": "Pestañas pelo a pelo Clásicas",
+          "categoria_web_sugerida": [
+            "mirada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Colocación nuevas"
+            },
+            {
+              "concepto": "Relleno"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MIRADA-005",
+          "nombre_original": "Pestañas Tecnológicas",
+          "categoria_web_sugerida": [
+            "mirada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "2D nuevas"
+            },
+            {
+              "concepto": "2D retoque"
+            },
+            {
+              "concepto": "3D nuevas"
+            },
+            {
+              "concepto": "3D retoque"
+            },
+            {
+              "concepto": "Efecto rímel nuevas"
+            },
+            {
+              "concepto": "Efecto rímel retoque"
+            },
+            {
+              "concepto": "Híbridas nuevas"
+            },
+            {
+              "concepto": "Híbridas retoque"
+            },
+            {
+              "concepto": "4D nuevas"
+            },
+            {
+              "concepto": "4D retoque"
+            },
+            {
+              "concepto": "5D nuevas"
+            },
+            {
+              "concepto": "5D retoque"
+            },
+            {
+              "concepto": "6D nuevas"
+            },
+            {
+              "concepto": "6D retoque"
+            },
+            {
+              "concepto": "7D nuevas"
+            },
+            {
+              "concepto": "7D retoque"
+            },
+            {
+              "concepto": "Wispy nuevas"
+            },
+            {
+              "concepto": "Wispy retoque"
+            },
+            {
+              "concepto": "8D nuevas"
+            },
+            {
+              "concepto": "8D retoque"
+            },
+            {
+              "concepto": "9D nuevas"
+            },
+            {
+              "concepto": "9D retoque"
+            },
+            {
+              "concepto": "Retiro de pestañas"
+            },
+            {
+              "concepto": "Desmaquillado previo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    },
+    {
+      "id": "facial",
+      "nombre_original": "APARATOLOGIA FACIAL Y TRATAMIENTOS DE HIDRATACIÓN 💋🌹",
+      "servicios": [
+        {
+          "id": "RB-FACIAL-001",
+          "nombre_original": "Microcorrientes",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Facial"
+            },
+            {
+              "concepto": "Cuello"
+            },
+            {
+              "concepto": "Facial y cuello"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-002",
+          "nombre_original": "Hidratación de cuello y escote con ácido hialurónico",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Cuello y escote"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-003",
+          "nombre_original": "Rejuvenecimiento de manos o Hidratación",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Manos"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-004",
+          "nombre_original": "Desintoxicación y exfoliación Corporal",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Exfoliación corporal y drenaje"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-005",
+          "nombre_original": "HIidratación profunda cara, cuello y escote",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Cara, cuello y escote"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-006",
+          "nombre_original": "LIMPIEZA PROFUNDA",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Limpieza facial básica"
+            },
+            {
+              "concepto": "Profunda con aparatología"
+            },
+            {
+              "concepto": "Profunda con microneedling"
+            },
+            {
+              "concepto": "Profunda con BB Glow"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-007",
+          "nombre_original": "HIDRAFACIAL",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Hidrafacial"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-008",
+          "nombre_original": "* Hollywood Peel",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Hollywood Peel"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-009",
+          "nombre_original": "Microneedling o Dermapen",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Facial"
+            },
+            {
+              "concepto": "Cuello y escote"
+            },
+            {
+              "concepto": "Facial, cuello y escote"
+            },
+            {
+              "concepto": "Facial con BB Glow"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-010",
+          "nombre_original": "Bbglow piel de porcelana",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Facial"
+            },
+            {
+              "concepto": "Cuello y escote"
+            },
+            {
+              "concepto": "Facial, cuello y escote"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-011",
+          "nombre_original": "Limpieza profunda de Espalda",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Espalda"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-012",
+          "nombre_original": "* Microdermoabreación con punta de diamante",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Facial"
+            },
+            {
+              "concepto": "Cuello"
+            },
+            {
+              "concepto": "Escote"
+            },
+            {
+              "concepto": "Facial, cuello y escote"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-013",
+          "nombre_original": "Dermatitis. Acné o Alopecia",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Alta frecuencia con LED"
+            },
+            {
+              "concepto": "Cabina LED sola"
+            },
+            {
+              "concepto": "Alta frecuencia sola"
+            },
+            {
+              "concepto": "Masaje de cuero cabelludo adicional"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-014",
+          "nombre_original": "Hidratación profunda de labios",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Hidralips / Hidragloss"
+            },
+            {
+              "concepto": "Tono adicional"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-015",
+          "nombre_original": "Radio frecuencia facial",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Facial"
+            },
+            {
+              "concepto": "Cuello y escote"
+            },
+            {
+              "concepto": "Facial, cuello y escote"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-016",
+          "nombre_original": "Ultrasonido Facial",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Facial"
+            },
+            {
+              "concepto": "Cuello y escote"
+            },
+            {
+              "concepto": "Facial, cuello y escote"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-017",
+          "nombre_original": "Hifu. (Ultrasonido Focalizado de Alta Intensidad )",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Facial"
+            },
+            {
+              "concepto": "Cuello y escote"
+            },
+            {
+              "concepto": "Facial, cuello y escote"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-FACIAL-018",
+          "nombre_original": "FIBROBLAST O Plasma Pen",
+          "categoria_web_sugerida": [
+            "facial"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Entrecejo"
+            },
+            {
+              "concepto": "Párpado superior"
+            },
+            {
+              "concepto": "Párpado inferior"
+            },
+            {
+              "concepto": "Patas de gallina"
+            },
+            {
+              "concepto": "Líneas de la frente"
+            },
+            {
+              "concepto": "Surco nasogeniano"
+            },
+            {
+              "concepto": "Contorno perilabial"
+            },
+            {
+              "concepto": "Papada"
+            },
+            {
+              "concepto": "Estiramiento facial"
+            },
+            {
+              "concepto": "Pecas según cantidad"
+            },
+            {
+              "concepto": "Líneas del cuello"
+            },
+            {
+              "concepto": "Manchas de edad según área"
+            },
+            {
+              "concepto": "Estrías del abdomen"
+            },
+            {
+              "concepto": "Estrías alrededor del ombligo"
+            },
+            {
+              "concepto": "Estrías de caderas"
+            },
+            {
+              "concepto": "Estrías de glúteos"
+            },
+            {
+              "concepto": "Estrías de muslos"
+            },
+            {
+              "concepto": "Verrugas"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    },
+    {
+      "id": "laser",
+      "nombre_original": "DEPILACIÓN LÁSER PERMANENTE",
+      "servicios": [
+        {
+          "id": "RB-LASER-001",
+          "nombre_original": "DEPILACIÓN PERMANENTE",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Bozo"
+            },
+            {
+              "concepto": "Papada"
+            },
+            {
+              "concepto": "Cuello y papada"
+            },
+            {
+              "concepto": "Axilas"
+            },
+            {
+              "concepto": "Brazos"
+            },
+            {
+              "concepto": "Pecho o abdomen"
+            },
+            {
+              "concepto": "Muslos"
+            },
+            {
+              "concepto": "Pantorrilla"
+            },
+            {
+              "concepto": "Espalda"
+            },
+            {
+              "concepto": "Ombligo"
+            },
+            {
+              "concepto": "Bikini"
+            },
+            {
+              "concepto": "Zona íntima"
+            },
+            {
+              "concepto": "Glúteos"
+            },
+            {
+              "concepto": "Perianal"
+            },
+            {
+              "concepto": "Vello masculino"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    },
+    {
+      "id": "micropigmentacion",
+      "nombre_original": "MICROPIGMENTACION OJOS, CEJAS Y LABIOS 💋",
+      "servicios": [
+        {
+          "id": "RB-MICROPIGMENTACION-001",
+          "nombre_original": "Delineado Permanente de ojos",
+          "categoria_web_sugerida": [
+            "micro"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Delineado superior"
+            },
+            {
+              "concepto": "Retoque superior"
+            },
+            {
+              "concepto": "Delineado inferior"
+            },
+            {
+              "concepto": "Retoque inferior"
+            },
+            {
+              "concepto": "Sombra blanca o color elegido"
+            },
+            {
+              "concepto": "Delineado superior más inferior"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MICROPIGMENTACION-002",
+          "nombre_original": "Micropigmentación Cejas",
+          "categoria_web_sugerida": [
+            "micro"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Pelo a pelo"
+            },
+            {
+              "concepto": "Retoque pelo a pelo"
+            },
+            {
+              "concepto": "Efecto polvo / Powder Brows"
+            },
+            {
+              "concepto": "Retoque efecto polvo"
+            },
+            {
+              "concepto": "Combinada o híbrida"
+            },
+            {
+              "concepto": "Retoque combinada"
+            },
+            {
+              "concepto": "Corrección de trabajos anteriores"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MICROPIGMENTACION-003",
+          "nombre_original": "Micropigmentación labios",
+          "categoria_web_sugerida": [
+            "micro"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Micropigmentación de labios"
+            },
+            {
+              "concepto": "Retoque"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MICROPIGMENTACION-004",
+          "nombre_original": "Otros servicios de Micropigmentación (Maquillaje semipermanente )",
+          "categoria_web_sugerida": [
+            "micro"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Remoción de tatuaje de cejas"
+            },
+            {
+              "concepto": "Micropigmentación de ojeras"
+            },
+            {
+              "concepto": "Micropigmentación rubor pómulos o mejillas"
+            },
+            {
+              "concepto": "Micropigmentación capilar"
+            },
+            {
+              "concepto": "Retoque micropigmentación capilar"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    },
+    {
+      "id": "masajes",
+      "nombre_original": "MASAJES..............🥰",
+      "servicios": [
+        {
+          "id": "RB-MASAJES-001",
+          "nombre_original": "Maderoterapia",
+          "categoria_web_sugerida": [
+            "masajes"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Maderoterapia"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MASAJES-002",
+          "nombre_original": "Acupuntura al vacío con Ventosas",
+          "categoria_web_sugerida": [
+            "masajes"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Ventosas"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MASAJES-003",
+          "nombre_original": "Exfoliación cuerpo completo",
+          "categoria_web_sugerida": [
+            "masajes"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Exfoliación de cuerpo completo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MASAJES-004",
+          "nombre_original": "Masaje con piedras Terapia Geotermal",
+          "categoria_web_sugerida": [
+            "masajes"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Masaje con piedras calientes"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-MASAJES-005",
+          "nombre_original": "Masajesssssss",
+          "categoria_web_sugerida": [
+            "masajes"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Drenaje linfático"
+            },
+            {
+              "concepto": "Masaje de espalda"
+            },
+            {
+              "concepto": "Masaje facial"
+            },
+            {
+              "concepto": "Reflexología podal"
+            },
+            {
+              "concepto": "Reflexología de manos"
+            },
+            {
+              "concepto": "Masaje deportivo"
+            },
+            {
+              "concepto": "Masaje relajante-terapéutico"
+            },
+            {
+              "concepto": "Masaje a cuatro manos"
+            },
+            {
+              "concepto": "Masaje con piedras"
+            },
+            {
+              "concepto": "Exfoliación corporal"
+            },
+            {
+              "concepto": "Ventosas"
+            },
+            {
+              "concepto": "Maderoterapia"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    },
+    {
+      "id": "avanzada",
+      "nombre_original": "MEJORES TRATAMIENTOS EN ESTÉTICA",
+      "servicios": [
+        {
+          "id": "RB-AVANZADA-001",
+          "nombre_original": "Armonización Glúteos",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Armonización de glúteos con bioestimuladores"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-002",
+          "nombre_original": "Skinbooster de Péptidos",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Skinbooster de péptidos"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-003",
+          "nombre_original": "Skinbooster Centella Asiática",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Skinbooster de centella asiática"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-004",
+          "nombre_original": "Skinbooster de Vitamina C",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Skinbooster de vitamina C"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-005",
+          "nombre_original": "Skinbooster Glutation",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Skinbooster de glutatión"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-006",
+          "nombre_original": "Skinbooster Pink Glow",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Skinbooster Pink Glow"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-007",
+          "nombre_original": "Radience",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Radience / Radiance"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-008",
+          "nombre_original": "Aumento de glúteos con filler de ácido hialurónico",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "25 cc"
+            },
+            {
+              "concepto": "50 cc"
+            },
+            {
+              "concepto": "60 cc"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-009",
+          "nombre_original": "Terapia con ADN o esperma de Salmón , polinucleótidos.",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Por sesión"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-010",
+          "nombre_original": "Lipolitico",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Lipolítico"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-011",
+          "nombre_original": "Plasma Rico en fibrina ( PRF)",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "PRF"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-012",
+          "nombre_original": "Plasma Rico en Plaquetas ( PRP)",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "PRP por sesión"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-013",
+          "nombre_original": "Plasma Gel",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Facial"
+            },
+            {
+              "concepto": "Glúteos"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-014",
+          "nombre_original": "NCTF-135 ha ( Redensificador facial)",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "NCTF-135 HA"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-015",
+          "nombre_original": "Hilos de polidoxanona ( Pdo)",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "10 hilos PDO"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-016",
+          "nombre_original": "Hilos Tensores Espiculados",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Hilos tensores espiculados"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-017",
+          "nombre_original": "Filler de acido hialurónico",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Referencia por cc"
+            },
+            {
+              "concepto": "Rinomodelación"
+            },
+            {
+              "concepto": "Surcos nasogenianos"
+            },
+            {
+              "concepto": "Perfilado de labios"
+            },
+            {
+              "concepto": "Labios rusos"
+            },
+            {
+              "concepto": "Mentón"
+            },
+            {
+              "concepto": "Definición mandibular"
+            },
+            {
+              "concepto": "Ojeras"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-018",
+          "nombre_original": "Toxina butulinica ( Bótox)",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Frasco de 100 unidades"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-019",
+          "nombre_original": "Sculptra",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Servicio listado"
+            },
+            {
+              "concepto": "Un vial en ejemplo por edad"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-AVANZADA-020",
+          "nombre_original": "Exosomas",
+          "categoria_web_sugerida": [
+            "avanzada"
+          ],
+          "tarifas_detalle": [],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    },
+    {
+      "id": "corporal",
+      "nombre_original": "APARATOLOGIA CORPORAL",
+      "servicios": [
+        {
+          "id": "RB-CORPORAL-001",
+          "nombre_original": "Roller",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Roller corporal"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-CORPORAL-002",
+          "nombre_original": "Paquetes especiales",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Paquete 1: abdomen"
+            },
+            {
+              "concepto": "Paquete 2: glúteos"
+            },
+            {
+              "concepto": "Paquete 3: muslos"
+            },
+            {
+              "concepto": "Paquete 4: brazos"
+            },
+            {
+              "concepto": "Paquete 5: espalda"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-CORPORAL-003",
+          "nombre_original": "Ondas Rusas",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Piernas"
+            },
+            {
+              "concepto": "Brazos, abdomen o glúteos"
+            },
+            {
+              "concepto": "Piernas más glúteos"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-CORPORAL-004",
+          "nombre_original": "Ultracavitacion",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Ultracavitación"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-CORPORAL-005",
+          "nombre_original": "Radio frecuencia Corporal",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Radiofrecuencia corporal"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-CORPORAL-006",
+          "nombre_original": "Vacunterapia",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Senos"
+            },
+            {
+              "concepto": "Glúteos y piernas"
+            },
+            {
+              "concepto": "Abdomen"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-CORPORAL-007",
+          "nombre_original": "Crioterapia o Criolipolisis",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-CORPORAL-008",
+          "nombre_original": "Lipo Láser",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Dos áreas"
+            },
+            {
+              "concepto": "Una sola área"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-CORPORAL-009",
+          "nombre_original": "Presoterapia para piernas cansadas",
+          "categoria_web_sugerida": [
+            "corporal"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Una área"
+            },
+            {
+              "concepto": "Todo el cuerpo"
+            }
+          ],
+          "requiere_revision_profesional": false,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    },
+    {
+      "id": "dental",
+      "nombre_original": "Dientes",
+      "servicios": [
+        {
+          "id": "RB-DENTAL-001",
+          "nombre_original": "Limpieza dental profunda",
+          "categoria_web_sugerida": [
+            "dental"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Limpieza dental profunda"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        },
+        {
+          "id": "RB-DENTAL-002",
+          "nombre_original": "Blanquemiento Dental",
+          "categoria_web_sugerida": [
+            "dental"
+          ],
+          "tarifas_detalle": [
+            {
+              "concepto": "Blanqueamiento solo"
+            },
+            {
+              "concepto": "Blanqueamiento con limpieza"
+            }
+          ],
+          "requiere_revision_profesional": true,
+          "estado_validacion": "pendiente_de_confirmacion_por_el_salon",
+          "mostrar_precio_publicamente": false
+        }
+      ]
+    }
+  ]
+}
